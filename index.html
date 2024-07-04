@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>archanjo domingo a noite</title>
+        <link rel="stylesheet" href="src/style.css">
+    </head>
+    <body>
+        <font size="+5">aaaaa vazio roxo</font>
+        <button class="reveal-button">😭</button>
+    <div class="image-container">
+      <img src="image.jpg" alt="Image">
+    </div>
+    <script>
+      const button = document.querySelector('.reveal-button');
+      const imageContainer = document.querySelector('.image-container');
+
+      button.addEventListener('click', () => {
+        imageContainer.classList.toggle('show');
+      });
+    </script>
+    </body>
+</html>
